@@ -1,8 +1,62 @@
+@font-face{
+    font-family : "Helvetica";
+    src : url(/fonts/Helvetica.ttf);
+}
+@font-face{
+    font-family : "Helvetica-Bold";
+    src : url(/fonts/Helvetica-Bold.ttf);
+}
+@font-face{
+    font-family : "Helvetica-Oblique";
+    src : url(/fonts/Helvetica-Oblique.ttf);
+}
 body{
-    margin-top : 1vh;
+    margin-top : 5vh;
+    font-family: Helvetica;
+    /*background-color: rgb(207, 204, 204);*/
 }
-header{
-    right: 20%;
+.company-name{
+    float: right;
     font-weight: bold;
-    color: rgb(0, 105, 255);
 }
+#name{
+    color:#1aa6e7;
+    font-size: 1.75vw;
+}
+.menu{
+    color: white;
+    background-color: #1aa6e7;
+    text-decoration : none;
+    width : 100%;
+    padding-top: 2%;
+    font-size: 1.25vw;
+    font-family: Helvetica-Bold;
+    height: fit-content;
+    text-align: center;
+}
+.menu li{
+    margin-right: 5%;
+    text-align: center;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+}
+.menu li a{
+    color: #ffffff;
+    margin-top : 1%;
+    text-transform: uppercase;
+}
+.menu a:hover{
+    background-color: white;
+    color : #1aa6e7;
+    text-decoration: none;
+    padding: 1%;
+    border-radius: 50px;
+}
+
+/*
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:700px) { }} 
+@media (min-width:1100px) { body {font-size:1.5rem;} }
+*/

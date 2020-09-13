@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
@@ -27,9 +28,28 @@
     </head>
     <body ng-app="HomeApp">
         <div class="container">
-            <header>
-                <h2>ELECTROFRONT TRANSPOWER PVT. LTD.</h2>
-            </header>
+            <div class="header d-block" id="fixed-header">
+                <div class="intro d-inline-block">
+                    <div class="certificate d-inline">
+                        <img src="images/QA.png" alt="ISO-9001-2008 Certified" class="img-fluid float-left" style="width: 8%;">
+                        <img src="images/DAC.png" alt="ISO-9001-2008 Certified" class="img-fluid float-left" style="width: 8%;">
+                    </div>
+                    <div class="company-name d-inline">
+                        <img src="images/Logo-bg.png" alt="Electrofront Transpower Indore" class="img-fluid float-left" style="width: 15%;">
+                        <div id="name">ELECTROFRONT TRANSPOWER PVT. LTD.</div>
+                    </div> 
+                </div>  
+                <div class="menu d-inline-block">
+                    <ul>
+                        <li class="d-inline"><a href="#home">Home</a></li>
+                        <li class="d-inline"><a href="#prod">Products & Services</a></li>
+                        <li class="d-inline"><a href="#quality">Quality</a></li>
+                        <li class="d-inline"><a href="#clients">Clients</a></li>
+                        <li class="d-inline"><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>   
+            </div>
+                
         </div>
     </body>
 </html>
